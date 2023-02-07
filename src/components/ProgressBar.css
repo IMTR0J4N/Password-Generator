@@ -1,7 +1,8 @@
-input {
-    border-radius: 50%;
+input[type=range] {
     accent-color: #A4FFAF;
+    outline: none;
 }
+
 
 /* .progress--green ::-webkit-progress-bar {
     background-color: #A4FFAF;
