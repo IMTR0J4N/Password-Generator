@@ -1,7 +1,9 @@
+import ProgressBar from "./components/ProgressBar"
+
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <ProgressBar value="30" max={60}></ProgressBar>
     </>
   )
 }
