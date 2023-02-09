@@ -1,12 +1,15 @@
 import CopyButton from "./components/CopyButton"
 
 function App() {
+  const lala = "my name is lala lalalalala"
+
   return (
     <>
-      <h1>Hello World</h1>
-      <CopyButton onClick={() => { navigator.clipboard.writeText(this.state.textToCopy) }}></CopyButton>
+      <CopyButton ></CopyButton>
     </>
   )
+
 }
 
 export default App
+
