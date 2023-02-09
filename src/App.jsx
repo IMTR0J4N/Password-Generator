@@ -1,7 +1,9 @@
+import Strength from "./components/Strength"
+
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <Strength></Strength>
     </>
   )
 }
