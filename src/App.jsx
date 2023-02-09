@@ -1,3 +1,4 @@
+import "shinobie"
 import Strength from "./components/Strength"
 
 function App() {
