@@ -1,3 +1,5 @@
+import "shinobie"
+import Strength from "./components/Strength"
 import ProgressBar from "./components/ProgressBar"
 import CopyButton from "./components/CopyButton"
 import "./App.css";
@@ -10,7 +12,8 @@ function App() {
 
   return (
     <>
-      <ProgressBar value="30" max={60}></ProgressBar>
+      <Strength />
+      <ProgressBar value="30" max={60} />
     </>
     <Box className="h--screen w--screen bg--black--light--1 d--flex justify--center App" />
       <Box className={"w--4-12 h--7-12 bg--black--light--2 p--2"} />
